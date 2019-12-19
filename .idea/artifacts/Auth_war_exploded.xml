@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Auth:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Auth_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Auth/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Auth" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JSF" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.23-bin" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
